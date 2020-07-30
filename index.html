@@ -55,6 +55,26 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     <div class="on-off">
       <h2>Scroll Down.</h2>
+      <style>
+.this--open {
+  width: 100%;
+  padding: 25px;
+  background-color: coral;
+  color: white;
+  font-size: 25px;
+  box-sizing: border-box;
+}
+</style>
+<button onclick="myFunction()">Try it</button>
+<div id="gliaDiv" class="element">
+This is a DIV element.
+</div>
+<script>
+function myFunction() {
+   var element = document.getElementById("gliaDiv");
+   element.classList.toggle("this--open");
+}
+</script>
       <div class="row-up-left">
         <img class="switch-on" src="css/images/switch.png" alt="https://www.flaticon.com/authors/pixel-perfect">
         <h3>Lorem & Ipsum</h3>
